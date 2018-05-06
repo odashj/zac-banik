@@ -55,6 +55,13 @@ body {
     line-height: 26px !important;
 }
 
+.copyright {
+    font-weight: 400;
+    padding-top: .425rem;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+}
+
 /* Custom page footer */
 .footer {
     padding-top: 1.5rem;
@@ -239,6 +246,10 @@ visibility: hidden;
     line-height: 23px !important;
 }
 
+.copyright {
+    padding-top: 0;
+}
+
     .page-content {
         margin-top: 150px;
 /*        margin-left: 0.9375rem !important;
@@ -278,6 +289,11 @@ visibility: hidden;
         display: block;
         position: relative;
     }
+
+    .navbar {
+        padding: 0;
+    }
+
     
 }
 

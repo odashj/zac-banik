@@ -60,12 +60,13 @@ if(!$useMain || $config->ajax) return;
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-7">
-			</div>
-			<div class="col-xs-5">
 				<?php
 				$pa = $pages("template=external-link|info-page");
 				echo renderChildrenOf($pa);
 				?>
+			</div>
+			<div class="col-xs-5">
+				<p class="copyright nav-link">© 2018 Zac Banik. All rights reserved.</p>
 			</div>
 		</div>
 	</div>
